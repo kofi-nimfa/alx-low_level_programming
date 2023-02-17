@@ -1,18 +1,22 @@
-#include <stdio.h>
 /**
- * main - A program tghat prints the size of various computer types
- * Return 0 (Success)
+ * main - Entry point
+ * Description: Prints message to console.
+ * Return: Always 0 (success)
  */
+
+#include <stdio.h>
 int main(void)
 {
-char a;
-int b;
-long int c;
-long long int d;
-float f;
+int SizeOfChar = 1;
+printf("Size of a Char: %d byte(s)", SizeOfChar);
+int SizeofInt = 4;
+printf("\nSize of an int: %d byte(s)", SizeofInt);
+int SizeOflongInt = 4;
+printf("\nSize of a long int: %d byte(s)", SizeOflongInt);
+int SizeOfLongLongint = 8;
+printf("\nSize of a long long int: %d byte(s)", SizeOfLongLongint);
+int SizeOfFloat = 4;
+printf("\nSize of a float: %d byte(s)", SizeOfFloat);
+return (0);
+}
 
-printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of an int: %lu byte(s)\n",(unsigned long)sizeof(c));
-printif("Size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
-printif("Size of a float: &lu bytes(s)\n", (unsigned long)sizeof(f));
-return(0);
