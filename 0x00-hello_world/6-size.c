@@ -8,7 +8,7 @@
 int main(void)
 {
 int SizeOfChar = 1;
-printf("Size of a Char: %d byte(s)", SizeOfChar);
+printf("Size of a char: %d byte(s)", SizeOfChar);
 int SizeofInt = 4;
 printf("\nSize of an int: %d byte(s)", SizeofInt);
 int SizeOflongInt = 4;
